@@ -1,0 +1,88 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 13 13 13;
+    --foreground: 229 229 229;
+
+    --card: 26 26 26;
+    --card-foreground: 229 229 229;
+
+    --popover: 26 26 26;
+    --popover-foreground: 229 229 229;
+
+    --primary: 270 91% 65%;
+    --primary-foreground: 13 13 13;
+
+    --secondary: 42 42 42;
+    --secondary-foreground: 229 229 229;
+
+    --muted: 42 42 42;
+    --muted-foreground: 153 153 153;
+
+    --accent: 270 91% 65%;
+    --accent-foreground: 13 13 13;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 229 229 229;
+
+    --border: 42 42 42;
+    --input: 42 42 42;
+    --ring: 270 91% 65%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-portfolio-dark text-portfolio-text font-jakarta;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .portfolio-card {
+    @apply bg-portfolio-gray border border-portfolio-gray-light rounded-lg p-6 transition-all duration-300 hover:border-portfolio-accent hover:shadow-lg hover:shadow-portfolio-accent/10 hover:scale-105;
+  }
+
+  .portfolio-button {
+    @apply bg-portfolio-accent text-portfolio-dark px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-portfolio-accent-dim hover:scale-105 hover:shadow-lg hover:shadow-portfolio-accent/30;
+  }
+
+  .portfolio-button-outline {
+    @apply border border-portfolio-accent text-portfolio-accent px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-portfolio-accent hover:text-portfolio-dark hover:scale-105;
+  }
+
+  .section-padding {
+    @apply py-20 px-6 md:px-12 lg:px-20;
+  }
+
+  .animate-on-scroll {
+    @apply opacity-0 translate-y-8 transition-all duration-700 ease-out;
+  }
+
+  .animate-on-scroll.animate {
+    @apply opacity-100 translate-y-0;
+  }
+
+  .skill-card {
+    @apply transform transition-all duration-300 hover:scale-105 hover:rotate-1;
+  }
+
+  .icon-hover {
+    @apply transition-all duration-300 hover:scale-110 hover:text-portfolio-accent;
+  }
+}
+
