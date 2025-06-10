@@ -4,7 +4,7 @@ import { Github } from 'lucide-react';
 
 const Projects = () => {
   const [filter, setFilter] = useState('All');
-  
+
   const projects = [
     {
       id: 1,
@@ -13,8 +13,8 @@ const Projects = () => {
       image: '/lovable-uploads/project1.png',
       tags: ['React', 'TypeScript', 'TailwindCSS'],
       category: 'Web Scraping',
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/Vinay42/AI-Dev-Assistant',
+      demo: 'https://ai-dev-assistant-wine.vercel.app/'
     },
     {
       id: 2,
@@ -39,10 +39,10 @@ const Projects = () => {
   ];
 
   const categories = ['All', 'Web Scraping', 'Full Stack', 'Mobile App'];
-  
 
-  const filteredProjects = filter === 'All' 
-    ? projects 
+
+  const filteredProjects = filter === 'All'
+    ? projects
     : projects.filter(project => project.category === filter);
 
   return (
@@ -50,7 +50,7 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Projects</h2>
         <p className="text-portfolio-text-muted mb-12 max-w-2xl">
-          Here are some of the projects I've worked on, showcasing my work across 
+          Here are some of the projects I've worked on, showcasing my work across
           various technologies and problem domains.
         </p>
 
@@ -88,12 +88,16 @@ const Projects = () => {
                 <div className="absolute inset-0 bg-portfolio-dark/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="flex space-x-4">
                     <a
+                      target="_blank"
+                      rel="noopener noreferrer"
                       href={project.github}
                       className="p-3 bg-portfolio-accent rounded-full text-portfolio-dark hover:scale-110 transition-transform duration-200"
                     >
                       <Github size={20} />
                     </a>
-                    <a
+                    <a  
+                      target="_blank"
+                      rel="noopener noreferrer"
                       href={project.demo}
                       className="p-3 bg-white rounded-full text-portfolio-dark hover:scale-110 transition-transform duration-200"
                     >
@@ -109,7 +113,7 @@ const Projects = () => {
               <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-portfolio-accent transition-colors duration-200">
                 {project.title}
               </h3>
-              
+
               <p className="text-portfolio-text-muted mb-4 text-sm leading-relaxed">
                 {project.description}
               </p>
@@ -130,7 +134,7 @@ const Projects = () => {
         </div>
 
         {/* Show More Button */}
-          {/* <div className="text-center">
+        {/* <div className="text-center">
             <button className="portfolio-button-outline">
               Show More Projects ↗
             </button>
