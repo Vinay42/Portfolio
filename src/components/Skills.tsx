@@ -32,7 +32,7 @@ const Skills = () => {
     {
       title: 'Frontend Development',  
       icon: Smartphone,
-      skills: ['React', 'HTML', 'Tailwind CSS', 'CSS', 'Framer Motion', 'Redux Toolkit']
+      skills: ['React.js', 'HTML', 'Tailwind CSS', 'CSS', 'Framer Motion', 'Redux Toolkit']
     },
     {
       title: 'Backend Development',

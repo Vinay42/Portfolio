@@ -11,30 +11,29 @@ const Projects = () => {
       title: 'AI Dev Assistant - Intelligent Coding Companion',
       description: 'A modern, AI-powered development platform that provides intelligent coding assistance, code analysis, and the latest tech articles.',
       image: '/lovable-uploads/project1.png',
-      tags: ['React', 'TypeScript', 'TailwindCSS'],
+      tags: ['React.js', 'TypeScript', 'TailwindCSS'],
       category: 'Web Scraping',
       github: 'https://github.com/Vinay42/AI-Dev-Assistant',
       demo: 'https://ai-dev-assistant-wine.vercel.app/'
     },
     {
       id: 2,
-      title: 'Py Scrapp - Amazon Web Scraper',
-      description: 'A Python-based scraping using Scrapy to extract product details from Amazon websites. Scheduled automation for efficient data collection with MongoDB integration.',
-      image: '/lovable-uploads/cf565e75-1ce7-4ae1-94d0-e7b95d96bfe8.png',
-      tags: ['Python', 'Scrapy', 'MongoDB', 'Data Mining'],
+      title: 'PostHive - Social Media Platform',
+      description: 'PostHive is a social media platform for sharing and discovering image-based content, designed with a focus on user experience, performance, security, and easy content management.',
+      image: '/lovable-uploads/project2.png',
+      tags: ['React.js', 'TailwindCSS','Node Js', 'MongoDB', 'JWT'],
       category: 'Web Scraping',
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/Vinay42/PostHive',
+      demo: 'https://post-hive-lu8b.vercel.app/'
     },
     {
       id: 3,
-      title: 'Py Scrapp - Amazon Web Scraper',
-      description: 'A Python-based scraping using Scrapy to extract product details from Amazon websites. Scheduled automation for efficient data collection with MongoDB integration.',
-      image: '/lovable-uploads/cf565e75-1ce7-4ae1-94d0-e7b95d96bfe8.png',
-      tags: ['Python', 'Scrapy', 'MongoDB', 'Data Mining'],
+      title: 'TechGadget - Modern E-Commerce Frontend',
+      description: 'TechGadget is a modern e-commerce platform for tech, offering smooth shopping, secure checkout, and personalized user features, along with business tools and tech updates.',image: '/lovable-uploads/project3.png',
+      tags: ['React.js', 'TailwindCSS', 'Framer Motion '],
       category: 'Web Scraping',
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/Vinay42/TechGadget',
+      demo: 'https://tech-gadget-kohl.vercel.app/'
     }
   ];
 

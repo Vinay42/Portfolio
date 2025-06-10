@@ -216,7 +216,7 @@ const Header = () => {
                 </a>
               ))}
               <a  
-                href="/Resume_.pdf"
+               href="/lovable-uploads/Resume_.pdf"
                 download="Vinay_Thakor.pdf"  
                 className="portfolio-button"
               >
@@ -259,8 +259,8 @@ const Header = () => {
             ))}
             <a
               className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg transition-colors duration-200 text-lg mt-4"
-              href="/Resume_.pdf"
-              download="Vinay_Resume.pdf"
+              href="/lovable-uploads/Resume_.pdf"
+              download="Vinay_Thakor.pdf"
               style={{ 
                 opacity: 0,
                 animation: `fadeInUp 0.6s ease-out 0.5s forwards`

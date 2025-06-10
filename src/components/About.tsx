@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { GraduationCap, Briefcase } from 'lucide-react';
+import { GraduationCap, Briefcase, FileText  } from 'lucide-react';
 
 const About = () => {
   const aboutRef = useRef<HTMLElement>(null);
@@ -47,8 +47,9 @@ const About = () => {
           {/* Bio Section - Mobile */}
           <div className="mb-8">
             <div className="flex items-center mb-4 animate-on-scroll">
-              <div className="w-6 h-6 bg-portfolio-accent rounded mr-4 flex items-center justify-center">
-                <span className="text-portfolio-dark text-sm font-bold">📄</span>
+              <div className="w-6 h-6 bg-portfolio-accent/20 rounded mr-4 flex items-center justify-center">
+                {/* <span className="text-portfolio-dark text-sm font-bold">📄</span> */}
+                <FileText className="text-portfolio-accent" size={20} />
               </div>
               <h3 className="text-lg font-semibold text-white">Bio</h3>
             </div>
@@ -92,8 +93,8 @@ const About = () => {
           {/* Bio Section */}
           <div className="lg:col-span-2 space-y-8">
             <div className="flex items-center mb-6 animate-on-scroll">
-              <div className="w-6 h-6 bg-portfolio-accent rounded mr-4 flex items-center justify-center">
-                <span className="text-portfolio-dark text-sm font-bold">📄</span>
+              <div className="w-8 h-8 bg-portfolio-accent/20 rounded-sm mr-4 flex items-center justify-center">
+                <FileText className="text-portfolio-accent" size={28} />
               </div>
               <h3 className="text-xl font-semibold text-white">Bio</h3>
             </div>
