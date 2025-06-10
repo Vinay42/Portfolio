@@ -197,8 +197,8 @@ const Header = () => {
         <nav className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-4">
           <div className="flex items-center justify-between">
             {/* Logo - Properly aligned with hero content */}
-            <div className="flex items-center z-[70] relative">
-              <a href="#" className="z-[70]">
+            <div className="flex items-center">
+              <a href="#" className="z-50 relative">
                 <span className="text-xl font-bold text-portfolio-accent">VINAY THAKOR</span>
               </a>
             </div>
@@ -226,7 +226,7 @@ const Header = () => {
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden text-portfolio-text transition-transform duration-200 hover:scale-110 z-[70] relative"
+              className="md:hidden text-portfolio-text transition-transform duration-200 hover:scale-110 z-50 relative"
               onClick={(e) => {
                 e.stopPropagation();
                 setIsMenuOpen(!isMenuOpen);
@@ -240,9 +240,9 @@ const Header = () => {
 
       {/* Full Screen Black Overlay for Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden fixed inset-0 bg-black z-[60] flex flex-col items-center justify-center">
+        <div className="md:hidden fixed inset-0 bg-black z-40 flex flex-col items-center justify-center">
           {/* Navigation Menu Items */}
-          <div className="flex flex-col items-center justify-center space-y-8">
+          <div className="flex flex-col items-center z-50 justify-center space-y-8">
             {navItems.map((item, index) => (
               <a
                 key={item.label}
@@ -273,7 +273,7 @@ const Header = () => {
         </div>
       )}
 
-      <style jsx>{`
+      <style>{`
         @keyframes fadeInUp {
           from {
             opacity: 0;

@@ -8,10 +8,10 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Py Scrapp - Amazon Web Scraper',
-      description: 'A Python-based scraping using Scrapy to extract product details from Amazon websites. Scheduled automation for efficient data collection with MongoDB integration.',
-      image: '/lovable-uploads/cf565e75-1ce7-4ae1-94d0-e7b95d96bfe8.png',
-      tags: ['Python', 'Scrapy', 'MongoDB', 'Data Mining'],
+      title: 'AI Dev Assistant - Intelligent Coding Companion',
+      description: 'A modern, AI-powered development platform that provides intelligent coding assistance, code analysis, and the latest tech articles.',
+      image: '/lovable-uploads/project1.png',
+      tags: ['React', 'TypeScript', 'TailwindCSS'],
       category: 'Web Scraping',
       github: '#',
       demo: '#'
