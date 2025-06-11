@@ -80,9 +80,9 @@ const About = () => {
                   <Briefcase className="text-portfolio-accent" size={20} />
                 </div>
                 <h4 className="text-white font-semibold mb-1 text-sm">Experience</h4>
-                <p className="text-portfolio-accent text-xs font-medium mb-1">Full Stack Developer</p>
-                <p className="text-portfolio-text-muted text-xs">Twinst Digital</p>
-                <p className="text-portfolio-text-muted text-xs">Since March 2025</p>
+                <p className="text-portfolio-accent text-xs font-medium mb-1">Front-End Developer</p>
+                <p className="text-portfolio-text-muted text-xs">Clinical AI Assistance</p>
+                <p className="text-portfolio-text-muted text-xs">Apr 2024 – Oct 2024</p>
               </div>
             </div>
           </div>
@@ -129,11 +129,11 @@ const About = () => {
                   </div>
                   <div className="flex-1">
                     <h4 className="text-white font-semibold mb-1">Experience</h4>
-                    <p className="text-portfolio-accent text-sm font-medium">Full Stack Developer Intern</p>
+                    <p className="text-portfolio-accent text-sm font-medium">Front-End Developer Intern</p>
                     <p className="text-portfolio-text-muted text-sm mt-2">
-                      Twinst Digital
+                       Clinical AI Assistance
                     </p>
-                    <p className="text-portfolio-text-muted text-sm">Since March 2025</p>
+                    <p className="text-portfolio-text-muted text-sm">Apr 2024 – Oct 2024</p>
                   </div>
                 </div>
               </div>
