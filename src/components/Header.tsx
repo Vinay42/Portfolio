@@ -216,7 +216,7 @@ const Header = () => {
                 </a>
               ))}
               <a  
-               href="/lovable-uploads/Resume_tech.pdf"
+               href="/lovable-uploads/Resume_tech 2.pdf"
                 download="Vinay_Thakor.pdf"  
                 className="portfolio-button"
               >
@@ -259,7 +259,7 @@ const Header = () => {
             ))}
             <a
               className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg transition-colors duration-200 text-lg mt-4"
-              href="/lovable-uploads/Resume_tech.pdf"
+              href="/lovable-uploads/Resume_tech 2.pdf"
               download="Vinay_Thakor.pdf"
               style={{ 
                 opacity: 0,
