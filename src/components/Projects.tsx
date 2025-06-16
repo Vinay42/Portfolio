@@ -11,7 +11,7 @@ const Projects = () => {
       title: 'AI Dev Assistant - Intelligent Coding Companion',
       description: 'A modern, AI-powered development platform that provides intelligent coding assistance, code analysis, and the latest tech articles.',
       image: '/lovable-uploads/project1.png',
-      tags: ['React.js', 'TypeScript', 'TailwindCSS'],
+      tags: ['React.js', 'JavaScript', 'TailwindCSS','Node JS', 'Gemini API'],
       category: 'Web Scraping',
       github: 'https://github.com/Vinay42/AI-Dev-Assistant',
       demo: 'https://ai-dev-assistant-wine.vercel.app/'
