@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Code, Smartphone, Server, Database, Wrench, Palette } from 'lucide-react';
+import { Code, Smartphone, Server, Database, Wrench, Layers, BookOpen,Brain } from 'lucide-react';
 
 const Skills = () => {
   const skillsRef = useRef<HTMLElement>(null);
@@ -27,32 +27,32 @@ const Skills = () => {
     {
       title: 'Programming Languages',
       icon: Code,
-      skills: ['JavaScript', 'Python', 'C/C++']
+      skills: ['JavaScript', 'Python', 'C', 'C++']
     },
     {
       title: 'Frontend Development',  
       icon: Smartphone,
-      skills: ['React.js', 'HTML', 'Tailwind CSS', 'CSS', 'Framer Motion', 'Redux Toolkit']
+      skills: ['React.js', 'HTML', 'CSS', 'Tailwind CSS', 'Redux Toolkit']
     },
     {
       title: 'Backend Development',
       icon: Server,
-      skills: ['Node.js', 'ExpressJS', 'MongoDB']
+      skills: ['Node.js', 'ExpressJS', 'RESTful APIs', 'WebSockets (Socket.IO)']
     },
     {
       title: 'Databases',
       icon: Database,
-      skills: ['MongoDB', 'MySQL']
+      skills: ['MongoDB', 'MySQL', 'PostgreSQL']
     },
     {
       title: 'Tools & Technologies',
       icon: Wrench,
-      skills: ['Git Hub', 'Git', 'Netlify', 'Vercel', ' Postman']
+      skills: ['Git Hub', 'Git', 'Docker', 'Netlify', 'Vercel', ' Postman', 'Figma', 'Canva']
     },
     {
-      title: 'Design',
-      icon: Palette,
-      skills: ['Figma', 'Canva']
+      title: 'Core Subjects',
+      icon: Layers ,
+      skills: ['DSA', 'Operating Systems', 'DBMS','OOPs']
     }
   ];
 

@@ -8,36 +8,45 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: 'CodeBin – Real-Time Collaborative Code Editor',
+      description: 'A real-time collaborative coding platform that allows multiple users to write, edit, and execute code together in shared rooms with live synchronization, execution control, and interactive console support.',
+      image: '/uploads/project3.png',
+      tags: [
+        'React.js',
+        'Node.js',  
+        'Express',
+        'Socket.IO',
+        'Monaco Editor',
+        'Docker',
+        'TailwindCSS'
+      ],
+      category: 'Real-Time Collaboration',
+      github: 'https://github.com/Vinay42/CodeBin',
+      // demo: 'https://codebin-your-demo-link.vercel.app/'
+    },
+    {
+      id: 2,
       title: 'AI Dev Assistant - Intelligent Coding Companion',
       description: 'A modern, AI-powered development platform that provides intelligent coding assistance, code analysis, and the latest tech articles.',
-      image: '/lovable-uploads/project1.png',
-      tags: ['React.js', 'JavaScript', 'TailwindCSS','Node JS', 'Gemini API'],
+      image: '/uploads/project1.png',
+      tags: ['React.js', 'JavaScript', 'TailwindCSS', 'Node JS', 'Gemini API'],
       category: 'Web Scraping',
       github: 'https://github.com/Vinay42/AI-Dev-Assistant',
       demo: 'https://ai-dev-assistant-wine.vercel.app/'
     },
     {
-      id: 2,
+      id: 3,
       title: 'PostHive - Social Media Platform',
       description: 'PostHive is a social media platform for sharing and discovering image-based content, designed with a focus on user experience, performance, security, and easy content management.',
-      image: '/lovable-uploads/project2.png',
-      tags: ['React.js', 'TailwindCSS','Node Js', 'MongoDB', 'JWT'],
+      image: '/uploads/project2.png',
+      tags: ['React.js', 'TailwindCSS', 'Node Js', 'MongoDB', 'JWT'],
       category: 'Web Scraping',
       github: 'https://github.com/Vinay42/PostHive',
       demo: 'https://post-hive-lu8b.vercel.app/'
-    },
-    {
-      id: 3,
-      title: 'TechGadget - Modern E-Commerce Frontend',
-      description: 'TechGadget is a modern e-commerce platform for tech, offering smooth shopping, secure checkout, and personalized user features, along with business tools and tech updates.',image: '/lovable-uploads/project3.png',
-      tags: ['React.js', 'TailwindCSS', 'Framer Motion '],
-      category: 'Web Scraping',
-      github: 'https://github.com/Vinay42/TechGadget',
-      demo: 'https://tech-gadget-kohl.vercel.app/'
     }
   ];
 
-  const categories = ['All', 'Web Scraping', 'Full Stack', 'Mobile App'];
+  // const categories = ['All', 'Web Scraping', 'Full Stack', 'Mobile App'];
 
 
   const filteredProjects = filter === 'All'
@@ -82,7 +91,7 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  className="w-full h-48 object-contain transition-transform duration-300 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-portfolio-dark/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="flex space-x-4">
@@ -94,7 +103,7 @@ const Projects = () => {
                     >
                       <Github size={20} />
                     </a>
-                    <a  
+                    {/* <a  
                       target="_blank"
                       rel="noopener noreferrer"
                       href={project.demo}
@@ -103,7 +112,46 @@ const Projects = () => {
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                       </svg>
-                    </a>
+                    </a> */}
+                    {project.demo ? (
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={project.demo}
+                        className="p-3 bg-white rounded-full text-portfolio-dark hover:scale-110 transition-transform duration-200"
+                      >
+                        <svg
+                          className="w-5 h-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                          />
+                        </svg>
+                      </a>
+                    ) : (
+                      <div className="p-3 bg-gray-300 rounded-full text-gray-500 cursor-not-allowed">
+                        <svg
+                          className="w-5 h-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                          />
+                        </svg>
+                      </div>
+                    )}
+
                   </div>
                 </div>
               </div>

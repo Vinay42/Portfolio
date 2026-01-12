@@ -36,7 +36,7 @@ const About = () => {
               {/* <span className="text-2xl font-bold text-portfolio-accent">VT</span> */}
 
               <img
-                    src="/lovable-uploads/photo.jpeg"
+                    src="/uploads/photo.jpeg"
                     alt="Hero"
                     className="h-full w-full object-cover rounded-full"
                   />
@@ -74,7 +74,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="portfolio-card animate-on-scroll skill-card">
+            {/* <div className="portfolio-card animate-on-scroll skill-card">
               <div className="flex flex-col items-center text-center">
                 <div className="w-10 h-10 bg-portfolio-accent/20 rounded-lg mb-3 flex items-center justify-center">
                   <Briefcase className="text-portfolio-accent" size={20} />
@@ -84,7 +84,7 @@ const About = () => {
                 <p className="text-portfolio-text-muted text-xs">Clinical AI Assistance</p>
                 <p className="text-portfolio-text-muted text-xs">Apr 2024 – Oct 2024</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -122,7 +122,7 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="portfolio-card animate-on-scroll skill-card">
+              {/* <div className="portfolio-card animate-on-scroll skill-card">
                 <div className="flex items-start mb-4">
                   <div className="w-12 h-12 bg-portfolio-accent/20 rounded-lg mr-4 flex items-center justify-center">
                     <Briefcase className="text-portfolio-accent" size={24} />
@@ -136,7 +136,7 @@ const About = () => {
                     <p className="text-portfolio-text-muted text-sm">Apr 2024 – Oct 2024</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -147,7 +147,7 @@ const About = () => {
                 <div style={{ height: '17rem', width: '17rem' }} className=" bg-portfolio-accent/20 rounded-full mx-auto mb-6 flex items-center justify-center border-2 border-portfolio-accent hover:scale-110 transition-transform duration-300">
                   {/* <span className="text-4xl font-bold text-portfolio-accent">VT</span> */}
                   <img
-                    src="/lovable-uploads/photo.jpeg"
+                    src="/uploads/photo.jpeg"
                     alt="Hero"
                     className="h-full w-full object-cover rounded-full"
                   />

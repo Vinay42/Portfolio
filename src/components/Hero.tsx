@@ -44,8 +44,7 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-sm sm:text-base md:text-lg text-portfolio-text-muted mb-4 md:mb-6 max-w-2xl leading-relaxed animate-on-scroll">
-              Hi I'm Vinay Thakor, a creative Full Stack Developer with 2+ years of
-              experience building rich, scalable, and responsive web applications.
+              Hi, I’m Vinay Thakor, a passionate Full Stack Developer focused on building rich, scalable, and responsive web applications.
             </p>
 
             {/* CTA Buttons */}
@@ -84,7 +83,7 @@ const Hero = () => {
               <a href="https://www.linkedin.com/in/vinay-thakor-05a2952a5/" target="_blank" rel="noopener noreferrer" className="text-portfolio-text-muted hover:text-portfolio-accent transition-all duration-200 hover:scale-110">
                 <Linkedin size={18} className="md:w-5 md:h-5" />
               </a>
-              <a href="https://www.instagram.com/_vinay_thakor_18/" target="_blank" rel="noopener noreferrer" className="text-portfolio-text-muted hover:text-portfolio-accent transition-all duration-200 hover:scale-110">
+              <a href="https://www.instagram.com/_vinaythakor/" target="_blank" rel="noopener noreferrer" className="text-portfolio-text-muted hover:text-portfolio-accent transition-all duration-200 hover:scale-110">
                 <Instagram size={18} className="md:w-5 md:h-5" />
               </a>
             </div>
@@ -94,7 +93,7 @@ const Hero = () => {
           <div className="hidden lg:flex justify-center items-center animate-on-scroll">
             <div className="relative">
               <img
-                src="/lovable-uploads/hero3.png"
+                src="/uploads/hero3.png"
                 alt="Hero Png"
                 className="w-100 h-100 mr-3 transition-transform duration-300 hover:scale-110"
               />

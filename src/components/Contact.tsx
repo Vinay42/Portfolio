@@ -271,7 +271,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-white font-medium">Email</p>
-                  <p className="text-portfolio-text-muted">vinaythakor890@gmail.com</p>
+                  <p className="text-portfolio-text-muted">vinaythakor47@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center">

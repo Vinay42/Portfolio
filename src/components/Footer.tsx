@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="text-center md:text-left mb-6 md:mb-0">
             <div className="text-2xl font-bold text-portfolio-accent mb-2">VINAY THAKOR</div>
             <p className="text-portfolio-text-muted text-sm">
-              © 2024 Vinay Thakor. All rights reserved.
+              © 2026 Vinay Thakor. All rights reserved.
             </p>
           </div>
 
