@@ -22,7 +22,7 @@ const Projects = () => {
       ],
       category: 'Real-Time Collaboration',
       github: 'https://github.com/Vinay42/CodeBin',
-      // demo: 'https://codebin-your-demo-link.vercel.app/'
+      demo: 'https://codebin-xi.vercel.app/'
     },
     {
       id: 2,
