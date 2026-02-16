@@ -27,7 +27,7 @@ const Skills = () => {
     {
       title: 'Programming Languages',
       icon: Code,
-      skills: ['JavaScript', 'Python', 'C', 'C++']
+      skills: ['JavaScript', 'Python', 'C', 'C++', 'Java']
     },
     {
       title: 'Frontend Development',  
@@ -37,22 +37,22 @@ const Skills = () => {
     {
       title: 'Backend Development',
       icon: Server,
-      skills: ['Node.js', 'ExpressJS', 'RESTful APIs', 'WebSockets (Socket.IO)']
+      skills: ['Node.js', 'ExpressJS', ' Spring Boot', 'Spring MVC', 'RESTful APIs', 'JWT', 'WebSockets (Socket.IO)']
     },
     {
       title: 'Databases',
       icon: Database,
-      skills: ['MongoDB', 'MySQL', 'PostgreSQL']
+      skills: ['MongoDB', 'MySQL', 'PostgreSQL', 'Redis']
     },
     {
       title: 'Tools & Technologies',
       icon: Wrench,
-      skills: ['Git Hub', 'Git', 'Docker', 'Netlify', 'Vercel', ' Postman', 'Figma', 'Canva']
+      skills: ['Git Hub', 'Git', 'Docker', 'Netlify', 'Vercel', ' Postman', 'Figma', 'Canva', 'Swagger/OpenAPI']
     },
     {
       title: 'Core Subjects',
       icon: Layers ,
-      skills: ['DSA', 'Operating Systems', 'DBMS','OOPs']
+      skills: ['DSA', 'Operating Systems', 'DBMS','OOPs', 'System Design']
     }
   ];
 

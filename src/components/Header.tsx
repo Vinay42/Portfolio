@@ -81,7 +81,7 @@ const Header = () => {
                 </a>
               ))}
               <a  
-               href="/uploads/THAKOR VINAY RAMESHBHAI.pdf"
+               href="/uploads/THAKOR_VINAY_RAMESHBHAI.pdf"
                 download="Vinay_Thakor.pdf"  
                 className="portfolio-button"
               >
@@ -124,7 +124,7 @@ const Header = () => {
             ))}
             <a
               className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg transition-colors duration-200 text-lg mt-4"
-              href="/uploads/Resume_tech 2.pdf"
+              href="/uploads/THAKOR_VINAY_RAMESHBHAI.pdf"
               download="Vinay_Thakor.pdf"
               style={{ 
                 opacity: 0,

@@ -74,17 +74,17 @@ const About = () => {
               </div>
             </div>
 
-            {/* <div className="portfolio-card animate-on-scroll skill-card">
+            <div className="portfolio-card animate-on-scroll skill-card">
               <div className="flex flex-col items-center text-center">
                 <div className="w-10 h-10 bg-portfolio-accent/20 rounded-lg mb-3 flex items-center justify-center">
                   <Briefcase className="text-portfolio-accent" size={20} />
                 </div>
                 <h4 className="text-white font-semibold mb-1 text-sm">Experience</h4>
-                <p className="text-portfolio-accent text-xs font-medium mb-1">Front-End Developer</p>
-                <p className="text-portfolio-text-muted text-xs">Clinical AI Assistance</p>
-                <p className="text-portfolio-text-muted text-xs">Apr 2024 – Oct 2024</p>
+                <p className="text-portfolio-accent text-xs font-medium mb-1">Full Stack Developer Intern</p>
+                <p className="text-portfolio-text-muted text-xs">Lalita Automation Private Limited</p>
+                <p className="text-portfolio-text-muted text-xs">Jan 2026 - Present</p>
               </div>
-            </div> */}
+            </div> 
           </div>
         </div>
 
@@ -122,21 +122,21 @@ const About = () => {
                 </div>
               </div>
 
-              {/* <div className="portfolio-card animate-on-scroll skill-card">
+              <div className="portfolio-card animate-on-scroll skill-card">
                 <div className="flex items-start mb-4">
                   <div className="w-12 h-12 bg-portfolio-accent/20 rounded-lg mr-4 flex items-center justify-center">
                     <Briefcase className="text-portfolio-accent" size={24} />
                   </div>
                   <div className="flex-1">
                     <h4 className="text-white font-semibold mb-1">Experience</h4>
-                    <p className="text-portfolio-accent text-sm font-medium">Front-End Developer Intern</p>
+                    <p className="text-portfolio-accent text-sm font-medium">Full Stack Developer Intern</p>
                     <p className="text-portfolio-text-muted text-sm mt-2">
-                       Clinical AI Assistance
+                       Lalita Automation Private Limited 
                     </p>
-                    <p className="text-portfolio-text-muted text-sm">Apr 2024 – Oct 2024</p>
+                    <p className="text-portfolio-text-muted text-sm">Jan 2026 - Present</p>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
 
@@ -156,7 +156,7 @@ const About = () => {
                 <div className="flex flex-wrap gap-2 justify-center">
                   <span className="bg-portfolio-accent/20 border border-portfolio-accent/30 text-portfolio-accent text-xs px-3 py-1 rounded-full hover:scale-105 transition-transform duration-200">React</span>
                   <span className="bg-portfolio-accent/20 border border-portfolio-accent/30 text-portfolio-accent text-xs px-3 py-1 rounded-full hover:scale-105 transition-transform duration-200">Node</span>
-                  <span className="bg-portfolio-accent/20 border border-portfolio-accent/30 text-portfolio-accent text-xs px-3 py-1 rounded-full hover:scale-105 transition-transform duration-200">UI/UX</span>
+                  <span className="bg-portfolio-accent/20 border border-portfolio-accent/30 text-portfolio-accent text-xs px-3 py-1 rounded-full hover:scale-105 transition-transform duration-200">Spring Boot</span>
                   <span className="bg-portfolio-accent/20 border border-portfolio-accent/30 text-portfolio-accent text-xs px-3 py-1 rounded-full hover:scale-105 transition-transform duration-200">Full Stack</span>
                 </div>
               </div>

@@ -8,6 +8,22 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: 'Tier-Based API Throttling System ',
+      description: 'Built a distributed tier-based API throttling system using Spring Boot and Redis, enforcing dynamic request limits for free (20/hr), business (40/hr), and professional (100/hr) users using the token bucket algorithm.',
+      image: '/uploads/project4.png',
+      tags: [
+        'Spring Boot',
+        'Spring MVC',  
+        'Redis',
+        'JWT',
+        'Bucket4j'
+      ],
+      category: 'Backend',
+      github: 'https://github.com/Vinay42/tier-based-api-throttling-system.git',
+      // demo: 'https://codebin-xi.vercel.app/'
+    },
+    {
+      id: 1,
       title: 'CodeBin – Real-Time Collaborative Code Editor',
       description: 'A real-time collaborative coding platform that allows multiple users to write, edit, and execute code together in shared rooms with live synchronization, execution control, and interactive console support.',
       image: '/uploads/project3.png',
