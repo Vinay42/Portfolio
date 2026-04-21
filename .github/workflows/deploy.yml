@@ -17,6 +17,8 @@ jobs:
           username: azureuser
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /home/azureuser/Portfolio
+            cd /var/www/portfolio
             git pull origin main
+            npm install
+            npm run build
             sudo systemctl reload nginx
