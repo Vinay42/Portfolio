@@ -82,7 +82,7 @@ const About = () => {
                 <h4 className="text-white font-semibold mb-1 text-sm">Experience</h4>
                 <p className="text-portfolio-accent text-xs font-medium mb-1">Full Stack Developer Intern</p>
                 <p className="text-portfolio-text-muted text-xs">Lalita Automation Private Limited</p>
-                <p className="text-portfolio-text-muted text-xs">Jan 2026 - Present</p>
+                <p className="text-portfolio-text-muted text-xs">Feb 2026 - Mar 2026</p>
               </div>
             </div> 
           </div>
