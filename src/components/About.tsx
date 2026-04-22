@@ -133,7 +133,7 @@ const About = () => {
                     <p className="text-portfolio-text-muted text-sm mt-2">
                        Lalita Automation Private Limited 
                     </p>
-                    <p className="text-portfolio-text-muted text-sm">Jan 2026 - Present</p>
+                    <p className="text-portfolio-text-muted text-sm">Feb 2026 - Mar 2026</p>
                   </div>
                 </div>
               </div>
