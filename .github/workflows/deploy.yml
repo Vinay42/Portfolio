@@ -13,11 +13,11 @@ jobs:
       - name: Deploy to Server via SSH
         uses: appleboy/ssh-action@v1.0.0
         with:
-          host: 20.244.24.248
+          host: ${{secrets.SSH_HOST}}
           username: azureuser
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /var/www/portfolio
+            cd /home/azureuser/Portfolio
             git pull origin main
             npm install
             npm run build
