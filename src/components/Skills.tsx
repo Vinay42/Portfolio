@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Code, Smartphone, Server, Database, Wrench, Layers, BookOpen,Brain } from 'lucide-react';
+import { Code, Smartphone, Server, Database, Wrench, Layers, BookOpen,Brain,Cloud } from 'lucide-react';
 
 const Skills = () => {
   const skillsRef = useRef<HTMLElement>(null);
@@ -23,38 +23,77 @@ const Skills = () => {
     return () => observer.disconnect();
   }, []);
 
-  const skillCategories = [
-    {
-      title: 'Programming Languages',
-      icon: Code,
-      skills: ['JavaScript', 'Python', 'C', 'C++', 'Java']
-    },
-    {
-      title: 'Frontend Development',  
-      icon: Smartphone,
-      skills: ['React.js', 'HTML', 'CSS', 'Tailwind CSS', 'Redux Toolkit']
-    },
-    {
-      title: 'Backend Development',
-      icon: Server,
-      skills: ['Node.js', 'ExpressJS', ' Spring Boot', 'Spring MVC', 'RESTful APIs', 'JWT', 'WebSockets (Socket.IO)']
-    },
-    {
-      title: 'Databases',
-      icon: Database,
-      skills: ['MongoDB', 'MySQL', 'PostgreSQL', 'Redis']
-    },
-    {
-      title: 'Tools & Technologies',
-      icon: Wrench,
-      skills: ['Git Hub', 'Git', 'Docker', 'Netlify', 'Vercel', ' Postman', 'Figma', 'Canva', 'Swagger/OpenAPI']
-    },
-    {
-      title: 'Core Subjects',
-      icon: Layers ,
-      skills: ['DSA', 'Operating Systems', 'DBMS','OOPs', 'System Design']
-    }
-  ];
+const skillCategories = [
+  {
+    title: 'Programming Languages',
+    icon: Code,
+    skills: ['C++', 'C', 'JavaScript', 'Java', 'Python']
+  },
+  {
+    title: 'Frontend Development',
+    icon: Smartphone,
+    skills: ['React.js', 'Next.js', 'HTML', 'CSS', 'Tailwind CSS']
+  },
+  {
+    title: 'Backend Development',
+    icon: Server,
+    skills: [
+      'Node.js',
+      'Express.js',
+      'Spring Boot',
+      'REST APIs',
+      'WebSockets (Socket.IO)'
+    ]
+  },
+  {
+    title: 'Databases',
+    icon: Database,
+    skills: ['MongoDB', 'MySQL', 'PostgreSQL', 'Redis', 'Pinecone']
+  },
+  
+  {
+    title: 'Cloud',
+    icon: Cloud,
+    skills: [
+      'Microsoft Azure',
+    ]
+  },
+   {
+    title: 'AI & GenAI',
+    icon: Cloud,
+    skills: [
+      'OpenAI API',
+      'Google Gemini',
+      'LLM Integration',
+      'Prompt Engineering',
+      'Context Management'
+    ]
+  },
+  {
+    title: 'Tools & Technologies',
+    icon: Wrench,
+    skills: [
+      'Git',
+      'GitHub',
+      'Docker',
+      'Postman',
+      'Swagger/OpenAPI',
+      'VS Code',
+      'Figma'
+    ]
+  },
+  {
+    title: 'Core Subjects',
+    icon: Layers,
+    skills: [
+      'Data Structures & Algorithms',
+      'Operating Systems',
+      'DBMS',
+      'OOP',
+      'System Design'
+    ]
+  }
+];
 
   return (
     <section id="skills" className="section-padding bg-portfolio-dark" ref={skillsRef}>

@@ -25,7 +25,7 @@ const Projects = () => {
     {
       id: 1,
       title: 'CodeBin – Real-Time Collaborative Code Editor',
-      description: 'A real-time collaborative coding platform that allows multiple users to write, edit, and execute code together in shared rooms with live synchronization, execution control, and interactive console support.',
+      description: 'A real-time collaborative coding platform supporting multi-user editing with WebSocket synchronization, secure Docker-based code execution, and AI-powered assistance using Gemini, backed by session-aware context for persistent interactions.',
       image: '/uploads/project3.png',
       tags: [
         'React.js',
@@ -38,7 +38,7 @@ const Projects = () => {
       ],
       category: 'Real-Time Collaboration',
       github: 'https://github.com/Vinay42/CodeBin',
-      demo: 'https://codebin-xi.vercel.app/'
+      demo: 'https://codebin-11.duckdns.org/'
     },
     {
       id: 2,
